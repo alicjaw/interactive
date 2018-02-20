@@ -1,0 +1,51 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid{
+  margin: 0 auto;
+  width: 960px;
+}
+.l1 {
+    margin: auto;
+    width: 50%
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.variations {
+    font: 30px "Garamond";
+    padding-left: 70%;
+    font-style: normal;
+    letter-spacing: 3px;
+    opacity: .8
+}
+.body {
+    font: 12px "Garamond";
+    padding-left: 10%    
+}
+
+.explanation {
+    font: 10px "Garamond";
+    padding-left: 10%  
+}
+
+
+.l1 {
+    
+    
+}

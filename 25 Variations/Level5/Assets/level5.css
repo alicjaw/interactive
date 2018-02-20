@@ -1,0 +1,99 @@
+
+/* POEM 2 */
+
+.poem {
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    letter-spacing: normal;
+    font: 12px "Baskerville";
+    line-height: 30px;
+    font-weight: 600;
+}
+.feather{
+    color: darkturquoise
+}
+.asaflash{
+    color: khaki
+}
+        
+/* POEM 2*/
+
+        
+.poem2 {
+    color: coral;
+    font: 16px "Futura";
+    line-height: normal;
+    margin: 10%;
+    padding: 10%;
+    }
+.flash {
+    color: coral;
+    font: 20px "Futura";
+    opacity: .5;
+}
+
+/* POEM 3 */
+
+.poem3 {
+    background-color: darkslateblue;
+    color: ghostwhite;
+    opacity: ;
+    font: 12px "Garamond";
+}
+.invelvet {
+    opacity: .8
+}
+.inoppositionto {
+    opacity: .6
+}
+.exiguously {
+    opacity: .4
+}
+.makesaheaddress {
+    opacity: .2;
+}
+.asaflash {
+    opacity: .1
+}
+
+/* POEM 4 */
+
+.poem4 {
+    font: 13px "Scala";
+    color: saddlebrown
+}
+.s {
+    opacity: .6
+}
+.and {
+    opacity: .6
+}
+.this {
+    opacity: .6
+}
+.in{
+    opacity: .6
+}
+.not{
+    opacity: .6
+}
+.whosoever{
+    opacity: .6
+}
+.makes{
+    opacity: .6
+}
+.by{
+    opacity: .6
+}
+
+/* POEM 5 */
+
+.poem5 {
+    font: 15px "Akzidenz Grotesk";
+    font-style: normal;
+    color: darkred;
+    opacity: .5;
+    background-color: aquamarine
+}

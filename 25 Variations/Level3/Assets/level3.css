@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset*/
+
+em {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+.nothing {
+    width: 1000px
+}
+
+/* CONTENT */
+
+.firstpart {
+    margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+.secondpart {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.thirdpart {
+    border-radius: 20px;
+    margin: 50px;
+    padding-left: 50px;
+}
+
+/* POEM 2 */
+
+.poem {
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* POEM 3 */
+.asif {
+    margin: 10px;
+    padding: 100px;
+    width: 1000px;
+}
+
+/* POEM 4 */
+.poem4 {
+    margin-left: 50%
+}
+.p4part2 {
+    margin-left: 10%
+}
+.p4part3 {
+    margin-left: 50%
+}
+
+/* POEM 5 */
+.p5part1 {
+    margin: 10%;
+    padding: 25px
+}
+
+.p5part2 {
+    margin: 20%;
+    padding: 50px
+}
+
+.p5part3 {
+    margin: 20%;
+    padding: 75px
+}
+
+.p5part4 {
+    margin: 20%;
+    padding: 100px
+}
+.p5part5 {
+    margin: 20%;
+    padding: 125px
+}
+.p5part6 {
+    margin: 20%;
+    padding: 150px
+}
+.p5part7 {
+    margin: 20%;
+    padding: 175px
+}
+.p5part8 {
+    margin: 20%;
+    padding: 150px
+}
+.p5part9 {
+    margin: 20%;
+    padding: 125px
+}
+.p5part10 {
+    margin: 20%;
+    padding: 100px
+}
+.p5part11 {
+    margin: 20%;
+    padding: 75px
+}
+.p5part12 {
+    margin: 20%;
+    padding: 50px
+}
+.p5part13 {
+    margin: 20%;
+    padding: 25px
+}
+.p5part14 {
+    margin: 20%;
+    padding: 100px
+}
