@@ -64,54 +64,119 @@ em {
 /* HEADER */
 
 .nothing {
-    width: 1000px
+    width: 1000px;
+    padding-left: 10%;
+    display: block;
+    font-style: italic
+}
+.willhavetakenplace {
+    width: 1000px;
+    padding-left: 30%;
+    display: block;
+    font-style: italic
+}
+.buttheplace {
+    width: 1000px;
+    padding-left: 60%;
+    display: block;
+    font-style: italic
 }
 
 /* CONTENT */
 
 .firstpart {
-    margin: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 960px;
+    margin: 50px;
+  border-radius: 20px;
+  padding-left: 10%;
 }
 
 .secondpart {
-    border-radius: 5px;
-    margin: 20px;
-    padding: 30px;
+    border-radius: 20px;
+    margin: 50px;
+    padding-left: 30%;
 }
 
 .thirdpart {
     border-radius: 20px;
     margin: 50px;
-    padding-left: 50px;
+    padding-left: 60%;
 }
 
 /* POEM 2 */
 
 .poem {
-    margin: 50px;
+    margin: 100px;
     padding: 50px;
     border-radius: 20px;
+    font-style: italic
 }
 
 /* POEM 3 */
-.asif {
-    margin: 10px;
-    padding: 100px;
-    width: 1000px;
+.madnessp {
+    margin: 0;
+    padding-left: 220px;
+    padding-top: 30px;
+    width: 630px;
+    border: 100px solid;
+    font-weight: bold;
+    text-align: justify
+    
 }
 
 /* POEM 4 */
+
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.poem4,
+.p4part2,
+.p4part3 {
+    width: ;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 600px solid ;
+    
+}
+.nothinghead {
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    text-align: center
+}
+.buthehead{
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    text-align: center
+}
+
+.excepthead {
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    text-align: center
+}
 .poem4 {
-    margin-left: 50%
+    float: left;
+    margin: 0 ;
+    width: 30%;
+    font-style: italic
 }
 .p4part2 {
-    margin-left: 10%
+    float: left;
+    margin: 0 ;
+    width: 30%;
+    font-style: italic
 }
 .p4part3 {
-    margin-left: 50%
+    float: left;
+    margin: 0;
+    width: 30%;
+    font-style: italic
 }
 
 /* POEM 5 */

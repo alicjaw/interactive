@@ -2,54 +2,86 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="Assets/level5.css">
+    <link rel="stylesheet" href="Assets/Level5_3.css">
     <title>Level 5 Part 3</title>
 </head>
 <body>
-<section class="poem3">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;solitary &nbsp;&nbsp;distraught &nbsp;&nbsp;<em>feather </em> </p>
-        
-        <p>save that a midnight toque encounters&nbsp;&nbsp; or &nbsp;&nbsp;grazes it</p>
-        
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;immobilizes</p>
-        
-       <section class="invelvet">
-        <p>in velvet crumpled by a fit of &nbsp;&nbsp;&nbsp;dark &nbsp;&nbsp;&nbsp;laughter</p>
-       
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this &nbsp;&nbsp;rigid&nbsp;&nbsp; whiteness</p>
-       
-        <p>pathetic</p>
-        </section>
-       
-        <section class="inoppositionto">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in &nbsp;&nbsp;opposition &nbsp;&nbsp;to the sky</p>
-        
-        <p>too much</p>
-       
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not to mark</p>
-        </section>
-        
-        <section class="exiguously">
-        <p>exiguously</p>
-      
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whosoever</p>
-        
-     
-        <p>bitter &nbsp;&nbsp;prince of the reef</p>
-            
-        </section>
-        
-        <section class="makesaheaddress">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;makes a headdress of it in heroic style</p>
-      
-        <p>irresistible but contained</p>
-       
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by his &nbsp;&nbsp;small &nbsp;&nbsp;reason virile</p>
-       </section>
-       
-       <section class="asaflash"> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as a flash</p>
-        </section>
-</section>
+    
+<svg width='600' height='200'>
+  <filter id='money'>
+    <feMorphology in='SourceGraphic' operator='dilate' radius='2' result='expand'/>
+
+    <feOffset in='expand' dx='1' dy='1' result='shadow_1'/>
+    <feOffset in='expand' dx='2' dy='2' result='shadow_2'/>
+    <feOffset in='expand' dx='3' dy='3' result='shadow_3'/>
+    <feOffset in='expand' dx='4' dy='4' result='shadow_4'/>
+    <feOffset in='expand' dx='5' dy='5' result='shadow_5'/>
+    <feOffset in='expand' dx='6' dy='6' result='shadow_6'/>
+    <feOffset in='expand' dx='7' dy='7' result='shadow_7'/>
+
+    <feMerge result='shadow'>
+      <feMergeNode in='expand'/>
+      <feMergeNode in='shadow_1'/>
+      <feMergeNode in='shadow_2'/>
+      <feMergeNode in='shadow_3'/>
+      <feMergeNode in='shadow_4'/>
+      <feMergeNode in='shadow_5'/>
+      <feMergeNode in='shadow_6'/>
+      <feMergeNode in='shadow_7'/>
+    </feMerge>
+
+    <feFlood flood-color='#ebe7e0'/>
+    <feComposite in2='shadow' operator='in' result='shadow'/>
+
+    <feMorphology in='shadow' operator='dilate' radius='1' result='border'/>
+    <feFlood flood-color='#35322a' result='border_color'/>
+    <feComposite in2='border' operator='in' result='border'/>
+
+    <feOffset in='border' dx='1' dy='1' result='secondShadow_1'/>
+    <feOffset in='border' dx='2' dy='2' result='secondShadow_2'/>
+    <feOffset in='border' dx='3' dy='3' result='secondShadow_3'/>
+    <feOffset in='border' dx='4' dy='4' result='secondShadow_4'/>
+    <feOffset in='border' dx='5' dy='5' result='secondShadow_5'/>
+    <feOffset in='border' dx='6' dy='6' result='secondShadow_6'/>
+    <feOffset in='border' dx='7' dy='7' result='secondShadow_7'/>
+    <feOffset in='border' dx='8' dy='8' result='secondShadow_8'/>
+    <feOffset in='border' dx='9' dy='9' result='secondShadow_9'/>
+    <feOffset in='border' dx='10' dy='10' result='secondShadow_10'/>
+    <feOffset in='border' dx='11' dy='11' result='secondShadow_11'/>
+
+    <feMerge result='secondShadow'>
+      <feMergeNode in='border'/>
+      <feMergeNode in='secondShadow_1'/>
+      <feMergeNode in='secondShadow_2'/>
+      <feMergeNode in='secondShadow_3'/>
+      <feMergeNode in='secondShadow_4'/>
+      <feMergeNode in='secondShadow_5'/>
+      <feMergeNode in='secondShadow_6'/>
+      <feMergeNode in='secondShadow_7'/>
+      <feMergeNode in='secondShadow_8'/>
+      <feMergeNode in='secondShadow_9'/>
+      <feMergeNode in='secondShadow_10'/>
+      <feMergeNode in='secondShadow_11'/>
+    </feMerge>
+
+    <feImage x='0' y='0' width='600' height='200' xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/stripes.svg'/>
+    <feComposite in2='secondShadow' operator='in' result='secondShadow'/>
+
+    <feMerge>
+      <feMergeNode in='secondShadow'/>
+      <feMergeNode in='border'/>
+      <feMergeNode in='shadow'/>
+      <feMergeNode in='SourceGraphic'/>
+    </feMerge>
+  </filter>
+
+  <text dominant-baseline='middle' text-anchor='middle' x='50%' y='50%'>
+    ONE 
+  </text>
+</svg>
+    <section class="toss">
+<p>toss of the dice</p>
+    </section>
 </body>
 
 </html>

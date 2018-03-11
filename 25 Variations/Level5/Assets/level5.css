@@ -1,61 +1,185 @@
 
-/* POEM 2 */
+/* POEM 1 */
+
+
+/*online text animation*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
 
 .poem {
     margin: 50px;
     padding: 50px;
     border-radius: 20px;
     letter-spacing: normal;
-    font: 12px "Baskerville";
+    font: 12px "Arial";
     line-height: 30px;
     font-weight: 600;
 }
 .feather{
-    color: darkturquoise
+     
 }
-.asaflash{
-    color: khaki
+.distraught{
+    margin-left: 400px;
+    text-align: justify
+  
 }
         
 /* POEM 2*/
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ text-align: justify
+}
+
+a, a:focus, a:hover, a:active, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Link {
+  filter: drop-shadow(0 1em 1em rgba(#000, .16));
+  font-size: 1rem;
+  max-width: 25em;
+  padding: 2em 2.4em;
+  position: relative;
+  transform: translateZ(0);
+}
+
+.Link::before,
+.Link::after {
+  background-color: #fff;
+  border-radius: 3px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  transform-origin: right;
+  transition: transform 500ms;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  z-index: -1;
+}
+
+.Link::after {
+  background-color: oldlace;
+  transform: scaleX(0);
+  transition-duration: 450ms;
+}
+
+.Link-title {
+  background-image:
+    linear-gradient(0deg, #ddd, #000),
+    linear-gradient(0deg, #fff, #fff),
+  ;
+  background-size: 0 2px, 0 100%;
+  background-position: 8px calc(1em + 8px), 0 0;
+  background-repeat: no-repeat;
+  box-decoration-break: clone;
+  display: inline;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 6px 8px;
+  margin-left: -8px;
+  pointer-events: none;
+  line-height: 1.75; 
+  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff;
+  transition: background ease-out 500ms;
+}
+
+.Link:hover > .Link-title {
+  background-size: calc(100% - 16px) 2px, 100% 100%;
+  transition-duration: 200ms;
+}
+
+.Link:hover::before {
+  transform: scaleX(0);
+  transition-duration: 450ms;
+  transition-timing-function: ease-in-out;
+}
+
+.Link:hover::after {
+  transform:  scaleX(1);
+  transition-duration: 700ms;
+  transition-timing-function: ease-in-out;
+  transform-origin: left;
+}
+
+
         
 .poem2 {
-    color: coral;
+    color: cornflowerblue;
     font: 16px "Futura";
     line-height: normal;
-    margin: 10%;
-    padding: 10%;
+    margin: 2px;
+    padding: 10px;
     }
-.flash {
-    color: coral;
-    font: 20px "Futura";
-    opacity: .5;
-}
+
 
 /* POEM 3 */
 
-.poem3 {
-    background-color: darkslateblue;
-    color: ghostwhite;
-    opacity: ;
-    font: 12px "Garamond";
-}
-.invelvet {
-    opacity: .8
-}
-.inoppositionto {
-    opacity: .6
-}
-.exiguously {
-    opacity: .4
-}
-.makesaheaddress {
-    opacity: .2;
-}
-.asaflash {
-    opacity: .1
-}
+
 
 /* POEM 4 */
 
