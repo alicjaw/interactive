@@ -1,0 +1,297 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(290, 202, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(294, 230, 210);
+}
+
+/* character */
+
+.face {
+     position: absolute;
+    top:70px; left: 300px;
+    width: 330px;
+    height: 380px;
+    background: #BF9C8D;
+    border-radius: 100% 100% 100% 100%;
+}
+.eye1 {
+    position: absolute;
+    top: 200px;
+    left: 340px;
+    width: 70px;
+	height: 60px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: white;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(-125deg)
+        
+}
+.eye2 {
+    position: absolute;
+    top: 200px;
+    left: 510px;
+    width: 70px;
+	height: 60px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: white;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(25deg)
+}
+.eyeball1 {
+    position: absolute;
+    top: 210px;
+    left: 523px;
+    width: 40px;
+	height: 40px;
+    background: #477D69;
+    border-radius: 100% 100% 100% 100%
+}
+.eyeball2 {
+    position: absolute;
+    top: 210px;
+    left: 355px;
+    width: 40px;
+	height: 40px;
+    background: #477D69;
+    border-radius: 100% 100% 100% 100%
+}
+.brow1 {
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    width: 70px;
+    height: 10px;
+    background: #050404;
+    border-radius:100% 0 0 0 
+}
+
+.brow2 {
+    position: absolute;
+    top: 160px;
+    left: 495px;
+    width: 70px;
+    height: 10px;
+    background: #050404;
+    border-radius:0 100% 0 0;
+   
+}
+.pupil1 {
+    position: absolute;
+    top: 218px;
+    left: 530px;
+    width: 25px;
+	height: 25px;
+    background: #000000;
+    border-radius: 100% 100% 100% 100%
+}
+.pupil2 {
+    position: absolute;
+    top: 218px;
+    left: 362px;
+    width: 25px;
+	height: 25px;
+    background: #000000;
+    border-radius: 100% 100% 100% 100%
+}
+.nostril1 {
+    position: absolute;
+    top: 295px;
+    left: 430px;
+    width: 0;
+	height: 0;
+	border-bottom: 15px solid #8C776B;
+	border-left: 25px solid transparent;
+    opacity: .8
+}
+.nostril2 {
+    position: absolute;
+    top: 295px;
+    left: 473px;
+	border-bottom: 15px solid #8C776B;
+	border-right: 25px solid transparent;
+    opacity: .8
+}
+.toplip1 {
+    position: absolute;
+    top: 340px;
+    left: 430px;
+    width: 40px;
+    height: 20px; 
+    background-color: #C4837A;
+    border-top-left-radius: 100px;  
+    border-top-right-radius: 100px; 
+
+}
+.toplip2 {
+    position: absolute;
+    top: 340px;
+    left: 460px;
+    width: 40px;
+    height: 20px; 
+    background-color: #C4837A;
+    border-top-left-radius: 100px;  
+    border-top-right-radius: 100px; 
+
+}
+.bottomlip {
+    position: absolute;
+    top: 360px;
+    left: 440px;
+    width: 53px;
+    height: 20px; 
+    background-color: #C4837A;
+    border-top-left-radius: 100px;  
+    border-top-right-radius: 100px;
+    transform: rotate(180deg)
+}
+
+.hair1 {
+     position: absolute;
+    top:60px; left: 250px;
+    width: 430px;
+    height: 480px;
+    background: #050404;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.hair2 {
+    position: absolute;
+    top:150px; left: 190px;
+    width: 400px;
+    height: 400px;
+    background: #050404;
+    border-radius: 100% 100% 100% 100%;
+}
+.hair3 {
+     position: absolute;
+    top:150px; left: 350px;
+    width: 400px;
+    height: 400px;
+    background: #050404;
+    border-radius: 100% 100% 100% 100%;
+}
+.hair4 {
+    position: absolute;
+    top: 80px;
+    left: 310px;
+    width:100px;
+    height: 100px;
+    background:#050404;
+    border-radius: 100% 0 100% 0
+}
+.hair5 {
+    position: absolute;
+    top: 63px;
+    left: 440px;
+    width:180px;
+    height: 100px;
+    background:#050404;
+    border-radius: 0 100% 0 100%
+}
+.hair6 {
+   position: absolute;
+    top: 63px;
+    left: 415px;
+    width:100px;
+    height: 100px;
+    background:#050404;
+    border-radius: 0 100% 0 100%;
+    transform: rotate(-10deg)
+}

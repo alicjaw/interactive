@@ -1,0 +1,254 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(290, 202, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(294, 230, 210);
+}
+
+/* character */
+
+.character {
+    position: absolute;
+    top:50px; left: 400px;
+    width: 80px;
+    height: 80px;
+    background: #8F6F5C;
+    border-radius: 100% 100% 100% 100%;
+    
+}
+.eye1 {
+    position: absolute;
+    top:80px; left: 416px;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 100%
+    
+}
+
+.eye2 {
+    position: absolute;
+    top:80px; left: 456px;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 100%
+}
+
+
+.ear1 {
+    position: absolute;
+    top: 78px;
+    left: 385px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #8F6F5C;
+    border-radius: 50% 30% 0 70%
+    }
+.ear2 {
+    position: absolute;
+    top: 78px;
+    left: 465px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #8F6F5C;
+    border-radius: 0 50% 70% 0%
+}
+.nose {
+    position: absolute;
+    top:90px; left: 436px;
+    width: 10px;
+    height: 13px;
+    background: #703B31;
+    border-radius: 40% 40% 40% 40% 
+}
+.neck {
+     position: absolute;
+    top:124px; left: 433px;
+    width: 18px;
+    height: 25px;
+    background: #8F6F5C;
+    border-radius: 
+}
+
+.leg1 {
+    position: absolute;
+    top: 298px;
+    left: 465px;
+    width: 20px;
+    height: 200px;
+    background: #BD4E4C;
+}
+.leg2 {
+    position: absolute;
+    top: 298px;
+    left: 405px;
+    width: 20px;
+    height: 200px;
+    background: #BD4E4C;
+}
+
+.body {
+    position: absolute;
+    top:149px; left: 370px;
+    height:0px;
+    width:145px;
+    border-bottom: 200px solid #25274A;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+}
+.foot1 {
+   position: absolute;
+    top: 498px;
+    left: 395px;
+    width: 30px;
+    height: 5px;
+    background: #423933; 
+}
+.foot2 {
+    position: absolute;
+    top: 498px;
+    left: 465px;
+    width: 30px;
+    height: 5px;
+    background: #423933; 
+}
+.hair1 {
+    position: absolute;
+    top:43px; 
+    left: 400px;
+    width: 80px;
+    height:30px;
+    background: #1D1E21;
+    border-radius: 100% 100% 0% 100%;
+}
+.hair2 {
+    position: absolute;
+    top: 43px;
+    left:385px;
+    width: 110px;
+    height:140px;
+    background: #1D1E21;
+    border-radius: 100% 100% 100% 100%;
+}
+.arm1 {
+    position: absolute;
+    top: 158px;
+    left: 389px;
+    width: 15px;
+    height: 150px;
+    background: #8F6F5C;
+    transform: rotate(15deg);
+}
+.arm2 {
+     position: absolute;
+    top: 158px;
+    left: 481px;
+    width: 15px;
+    height: 150px;
+    background: #8F6F5C;
+    transform: rotate(-15deg);
+}
+.sleeve1 {
+    position: absolute;
+    top: 148px;
+    left: 404px;
+    width: 75px;
+    height: 15px;
+    background: #25274A;
+}

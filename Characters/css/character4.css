@@ -1,0 +1,326 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(290, 202, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(294, 230, 210);
+}
+
+/* character */
+
+.bg {
+  position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 800px;
+    height: 400px;
+    background: #5893BD;
+}
+.water {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    width: 800px;
+    height: 150px;
+    background: #4D6A9C;
+}
+.leg1 {
+    position: absolute;
+    top: 298px;
+    left: 465px;
+    width: 20px;
+    height: 200px;
+    background: #FFECDE;
+}
+.leg2 {
+    position: absolute;
+    top: 298px;
+    left: 405px;
+    width: 20px;
+    height: 200px;
+    background: #FFECDE;
+}
+
+.body {
+    position: absolute;
+    top:139px; left: 373px;
+    height:0px;
+    width:140px;
+    border-bottom: 200px solid #47485E;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+}
+.foot1 {
+   position: absolute;
+    top: 498px;
+    left: 395px;
+    width: 30px;
+    height: 5px;
+    background: #FFECDE; 
+}
+.foot2 {
+    position: absolute;
+    top: 498px;
+    left: 465px;
+    width: 30px;
+    height: 5px;
+    background: #FFECDE; 
+}
+
+.hair2 {
+    position: absolute;
+    top: 43px;
+    left:395px;
+    width: 95px;
+    height:120px;
+    background: #FFE1A4;
+    border-radius: 100% 100% 100% 100%;
+}
+.hair3 {
+    position: absolute;
+    top: 100px;
+    left:395px;
+    width: 95px;
+    height:120px;
+    background: #FFE1A4; 
+}
+.arm1 {
+    position: absolute;
+    top: 158px;
+    left: 389px;
+    width: 15px;
+    height: 150px;
+    background: #FFECDE;
+    transform: rotate(15deg);
+}
+.arm2 {
+    position: absolute;
+    top: 158px;
+    left: 481px;
+    width: 15px;
+    height: 150px;
+    background: #FFECDE;
+    transform: rotate(-15deg);
+}
+.sleeve1 {
+    position: absolute;
+    top: 148px;
+    left: 404px;
+    width: 75px;
+    height: 15px;
+    background: #25274A;
+}
+.seaweed1 {
+    position: absolute;
+    top: 448px;
+    left: 471px;
+    width: 10px;
+    height: 40px;
+    background: #2B664F;
+    transform: rotate(-25deg);
+}
+.seaweed2 {
+   position: absolute;
+    top: 445px;
+    left: 464px;
+    width: 21px;
+    height: 10px;
+    background: #2B664F;
+    transform: rotate(-10deg)
+    
+}
+.seaweed3 {
+    position: absolute;
+    top: 485px;
+    left: 464px;
+    width: 21px;
+    height: 10px;
+    background: #2B664F;
+    transform: rotate(-10deg)
+}
+.pant1 {
+     position: absolute;
+    top: 339px;
+    left: 400px;
+    width: 89px;
+    height: 10px;
+    background: white;
+}
+.pant2 {
+    position: absolute;
+    top: 349px;
+    left: 400px;
+    width: 35px;
+    height: 10px;
+    background: white;
+}
+.pant3 {
+   position: absolute;
+    top: 349px;
+    left: 454px;
+    width: 35px;
+    height: 10px;
+    background: white; 
+}
+.knot1 {
+    position: absolute;
+    top: 239px;
+    left: 384px;
+    width: 35px;
+    height: 80px;
+    background: #60617F;
+    border-radius: 100% 0 50% 0
+}
+.knot2 {
+    position: absolute;
+    top: 229px;
+    left: 404px;
+    width: 35px;
+    height: 40px;
+    background: #262842;
+    border-radius: 100% 100% 100% 100%
+}
+.knot3 {
+    position: absolute;
+    top: 239px;
+    left: 429px;
+    width: 35px;
+    height: 80px;
+    background: #60617F;
+    border-radius: 0 50% 0 100%;
+    transform: rotate(-180deg)
+}
+.shirt {
+   position: absolute;
+    top:219px; left: 398px;
+    height:20px;
+    width:90px;
+    background: #DBF1F7;
+}
+.stripe1 {
+    position: absolute;
+    top:239px; left: 398px;
+    height:100px;
+    width:10px;
+    background: #28384A;
+}
+.stripe2 {
+    position: absolute;
+    top:239px; left: 438px;
+    height:100px;
+    width:10px;
+    background: #28384A;
+}
+.stripe3 {
+    position: absolute;
+    top:239px; left: 478px;
+    height:100px;
+    width:10px;
+    background: #28384A;
+}
+.stripe4 {
+    position: absolute;
+    top:259px; left: 393px;
+    height:10px;
+    width:100px;
+    background: #28384A;
+}
+.stripe5 {
+    position: absolute;
+    top:299px; left: 383px;
+    height:10px;
+    width:120px;
+    background: #28384A;
+}
