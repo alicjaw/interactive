@@ -64,18 +64,17 @@ table {
 
 /* Fonts and Things */
 
-.text {
+.thebody {
     font: 15px "Garamond";
     display: block;
     text-align: right;
     padding-right: 20%
     
 }
-.Alicja {
+.Character {
     font: 30px "Garamond";
     padding-left: 50%;
     font-style: normal;
     letter-spacing: 3px;
     font-weight: 600
 }
-
