@@ -53,5 +53,6 @@ h1 span:nth-child(14){ animation-delay:.65s; }
     margin: 10px;
     padding-right:40%;
     padding-top: 200px;
-    font: 15px "Helvetica"
+    font: 15px "Helvetica";
+    color: #8D92A6;
 }
