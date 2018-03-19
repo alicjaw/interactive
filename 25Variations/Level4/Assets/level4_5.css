@@ -17,15 +17,25 @@
  
     
 
-.text {
+.one {
+    margin: 10px;
+    width: 33px;
+    text-align: justify;
+    font: 300 500px "Arial";
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+    
+    
+}
+.two {
+    float: left;
+    width: 600px;
     margin: 80px;
-    border: 230px dotted; 
-    width: 900px;
+    padding-left: 10%;
+    padding-top: 4%;
     text-align: justify;
     font: 300 14px "Arial";
-    text-transform: lowercase;
-    text-decoration: overline underline;
-    padding: 20px
     
     
 }

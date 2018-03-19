@@ -13,57 +13,42 @@
 }
 
 
-.solitary {
-    width: ;
-}
-.velvet {
-    width: ;
-}
-.opposition {
-    width: ;
-}
-.bitter {
-    width: ;
-}
-
-.solitary {
-    width: ;
-    padding-left: 10%;
-}
-.velvet {
-    width: ;
-    padding-left: 20%;
-}
-.solitary,
-.velvet {
-  display: inline-block;
-  vertical-align: top;
+.rhythmic {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    text-transform:lowercase;
+    padding-left: 5%;
+    padding-right: 30%;
+    letter-spacing: 100px
+    
 }
 
-.velvet {
-    padding-left: 30%;
+.r2 {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    text-transform:uppercase;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 30%;
 }
-.opposition {
-    display:inline-block;
-    padding-left: 50%;
+.reality {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    text-transform:uppercase;
+    padding-left: 5%;
+    padding-right: 30%;
+    padding-top: 10%;
 }
-.bitter {
-    padding-left: 15%
-}
-
 
 /*
   ========================================
   Custom styles
   ========================================
 */
-body {
-  font: 11px "Baskerville";
-    font-style: italic;
-    font-weight: 300;
-}
-.opposition {
-    font-weight: 500;
-    font-style: normal;
-    font: 14px "Baskerville";
-}
