@@ -1,0 +1,1105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset*/
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*Boxes*/
+
+.BfloorText {
+    width: 100%;
+}
+
+.BText {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-left: 35%;
+    height: 350px;
+    margin-top: 0%;
+    background: none;
+}
+.topleft {
+    width: 15%;
+    margin-left: 5%;
+    height: 180px;
+    margin-top: 10%;
+    background: #2F7982;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.topright {
+    width: 20%;
+    margin-left: 60%;
+    margin-right: 0%;
+    height: 170px;
+    background:#2F7982;
+    position: absolute;
+    display: inline-block;
+    
+}
+/* FIRSTFLOORC */
+
+.tright {
+    visibility: hidden;
+}
+
+.mleft {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    height: 400px;
+    background: #2F7982;
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+.mright {
+    width: 60%;
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*END FIRSTFLOORC */
+
+ /*FIRSTFLOORD */
+
+.mileft {
+   width: 60%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    height: 400px;
+    background: #2F7982;
+    display: block;
+    position: relative;
+    float: left;
+    visibility: hidden;
+}
+
+.middleright {
+    display: inline-block;
+    position: absolute;
+    float: right;
+    width: 5%;
+    margin-top:5px;
+    margin-left: 5%;
+    height: 400px;
+    background: #2F7982; 
+}
+
+.bottomtextbox {
+    display: block;
+    position: absolute;
+    float: right;
+    width: 55%;
+    margin-top:5px;
+    margin-left: 5%;
+    height: 400px; 
+}
+
+
+.Box1,
+.Box2 {
+    width: 100%;
+    display: block;
+}
+
+/* SECOND FLOOR */
+
+.container1,
+.container2,
+.bottomcontainer{
+    width: 100%;
+    display: block;
+}
+
+.boxone {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    background: #2F7982;
+    height: 100px;
+    margin: 5px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    
+}
+
+.boxtwo {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    background: #2F7982;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+.boxthree {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    background: #2F7982;
+    height: 100px;
+    margin-left:70%;
+    margin-bottom: 80px;
+    margin-top: 5%;
+    
+}
+
+.boxone2 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    background: #2F7982;
+    margin-bottom: 100px;
+    margin-top: 700px;
+    margin-left: 1%;
+    
+}
+
+.boxtwo2 {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    background: #2F7982;
+    margin-left: 40%;
+    margin-bottom: 300px;
+    margin-top: 600px;
+    
+    
+}
+
+.boxthree2 {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    background: #2F7982;
+    margin-bottom: 80px;
+    margin-left: 90%;
+    margin-top: 400px;
+}
+
+/*
+  ========================================
+  Second Floor A
+  ========================================
+*/
+
+.boxtwoa {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20%;
+
+}
+
+/*
+  ========================================
+  Second Floor B
+  ========================================
+*/
+.boxthreeb {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    margin-left:70%;
+    margin-bottom: 80px;
+    margin-top: 5%;
+    
+}
+
+/*
+  ========================================
+  Second Floor C
+  ========================================
+*/
+
+.boxthree2c {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    margin-bottom: 80px;
+    margin-left: 90%;
+    margin-top: 400px;
+}
+
+/*
+  ========================================
+                ATTIC
+  ========================================
+*/
+
+.tc1,
+.tc2,
+.tc3,
+.tc4,
+.bottomcontainer {
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+.a1 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.a2 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.a3 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 130px;
+    background:#2F7982; 
+    margin-top: 5%;
+    margin-left: 50%
+}
+.a4 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 160px;
+    background:#2F7982; 
+    margin: 4%;
+    margin-left: 78%
+}
+
+.b1 {
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 4%;
+    margin-top: 25%;
+}
+.b2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 300px;
+    background:#2F7982; 
+    margin-left: 23%;
+    margin-top: 25%;
+}
+.b3 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 130px;
+    background:#2F7982; 
+    margin-top: 35%;
+    margin-left: 40%
+}
+.b4 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 160px;
+    background:#2F7982; 
+    margin-top: 25%;
+    margin-left: 74%
+}
+
+.c1 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 60px;
+    background:#2F7982; 
+    margin-left: 14%;
+    margin-top: 45%;
+}
+.c2 {
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    height: 60px;
+    background:#2F7982; 
+    margin-left: 13%;
+    margin-top: 55%;
+}
+.c3 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 60%;
+    margin-left: 45%
+}
+.c4 {
+    display: inline-block;
+    position: absolute;
+    width: 14%;
+    height: 360px;
+    background:#2F7982; 
+    margin-top: 45%;
+    margin-left: 84%
+}
+
+.d1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 260px;
+    background:#2F7982; 
+    margin-left: 1%;
+    margin-top: 75%;
+}
+.d2 {
+    display: inline-block;
+    position: absolute;
+    width: 17%;
+    height: 160px;
+    background:#2F7982; 
+    margin-left: 33%;
+    margin-top: 75%;
+}
+.d3 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 80%;
+    margin-left: 65%
+}
+.d4 {
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    height: 160px;
+    background:#2F7982; 
+    margin-top: 85%;
+    margin-left: 79%
+
+}
+
+.nav3 {
+   width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    float: left;
+    font: 20px "Helvetica";
+    margin-top: 105%
+} 
+
+
+/*
+  ========================================
+                ATTIC A
+  ========================================
+*/
+
+.mc1,
+.mc2,
+.mc3,
+.mc4, {
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+.e1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.e2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 24%;
+    margin-top: 15%;
+}
+.e3 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 130px;
+    background:#2F7982; 
+    margin-top: 7%;
+    margin-left: 36%
+}
+.e4 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 360px;
+    background:#2F7982; 
+    margin: 4%;
+    margin-left: 70%
+}
+
+.f1 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 80px;
+    background:#2F7982; 
+    margin-left: 14%;
+    margin-top: 25%;
+}
+.f2 {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 23%;
+    margin-top: 35%;
+}
+.f3 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 150px;
+    background:#2F7982; 
+    margin-top: 45%;
+    margin-left: 40%
+}
+.f4 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 190px;
+    background:#2F7982; 
+    margin-top: 38%;
+    margin-left: 78%
+}
+
+.g1 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 60px;
+    background:#2F7982; 
+    margin-left: 4%;
+    margin-top: 45%;
+}
+.g2 {
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 180px;
+    background:#2F7982; 
+    margin-left: 10%;
+    margin-top: 55%;
+}
+.g3 {
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    height: 300px;
+    background:#2F7982; 
+    margin-top: 60%;
+    margin-left: 45%
+}
+.g4 {
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    height: 120px;
+    background:#2F7982; 
+    margin-top: 65%;
+    margin-left: 81%
+}
+
+.h1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 1%;
+    margin-top: 75%;
+}
+.h2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 33%;
+    margin-top: 75%;
+}
+.h3 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 90%;
+    margin-left: 65%
+}
+.h4 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 105%;
+    margin-left: 79%
+}
+
+
+/*
+  ========================================
+                ATTIC B
+  ========================================
+*/
+
+.rc1,
+.rc2,
+.rc3,
+.rc4, {
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+.i1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.i2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 1%;
+    margin-top: 15%;
+}
+.i3 {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 17%;
+    margin-left: 36%
+}
+.i4 {
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    height: 100px;
+    background:#2F7982; 
+    margin: 4%;
+    margin-left: 80%
+}
+
+.j1 {
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 90px;
+    background:#2F7982; 
+    margin-left: 26%;
+    margin-top: 29%;
+}
+.j2 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 3%;
+    margin-top: 35%;
+}
+.j3 {
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    height: 130px;
+    background:#2F7982; 
+    margin-top: 45%;
+    margin-left: 40%
+}
+.j4 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 390px;
+    background:#2F7982; 
+    margin-top: 28%;
+    margin-left: 78%
+}
+
+.k1 {
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    height: 90px;
+    background:#2F7982; 
+    margin-left: 14%;
+    margin-top: 45%;
+}
+.k2 {
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 170px;
+    background:#2F7982; 
+    margin-left: 6%;
+    margin-top: 55%;
+}
+.k3 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background:#2F7982; 
+    margin-top: 60%;
+    margin-left: 45%
+}
+.k4 {
+    display: inline-block;
+    position: absolute;
+    width: 3%;
+    height: 40px;
+    background:#2F7982; 
+    margin-top: 65%;
+    margin-left: 81%
+}
+
+.l1 {
+    display: inline-block;
+    position: absolute;
+    width: 28%;
+    height: 20px;
+    background:#2F7982; 
+    margin-left: 1%;
+    margin-top: 75%;
+}
+.l2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 33%;
+    margin-top: 75%;
+}
+.l3 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 80%;
+    margin-left: 65%
+}
+.l4 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 70%;
+    margin-left: 89%
+}
+
+/*
+  ========================================
+                ATTIC C
+  ========================================
+*/
+
+.lc1,
+.lc2,
+.lc3,
+.lc4, {
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+.m1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 12%;
+    margin-top: 11%;
+}
+.m2 {
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 24%;
+    margin-top: 35%;
+}
+.m3 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 1%;
+    margin-left: 46%
+}
+.m4 {
+    display: inline-block;
+    position: absolute;
+    width: 6%;
+    height: 360px;
+    background:#2F7982; 
+    margin: 4%;
+    margin-left: 90%
+}
+
+.n1 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 50px;
+    background:#2F7982; 
+    margin-left: 4%;
+    margin-top: 35%;
+}
+.n2 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 13%;
+    margin-top: 45%;
+}
+.n3 {
+    display: inline-block;
+    position: absolute;
+    width: 26%;
+    height: 120px;
+    background:#2F7982; 
+    margin-top: 55%;
+    margin-left: 40%
+}
+.n4 {
+    display: inline-block;
+    position: absolute;
+    width: 21%;
+    height: 130px;
+    background:#2F7982; 
+    margin-top: 38%;
+    margin-left: 78%
+}
+
+.o1 {
+    display: inline-block;
+    position: absolute;
+    width: 5%;
+    height: 60px;
+    background:#2F7982; 
+    margin-left: 4%;
+    margin-top: 45%;
+}
+.o2 {
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 180px;
+    background:#2F7982; 
+    margin-left: 10%;
+    margin-top: 55%;
+}
+.o3 {
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    height: 170px;
+    background:#2F7982; 
+    margin-top: 60%;
+    margin-left: 70%
+}
+.o4 {
+    display: inline-block;
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    background:#2F7982; 
+    margin-top: 75%;
+    margin-left: 81%
+}
+
+.p1 {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background:#2F7982; 
+    margin-left: 1%;
+    margin-top: 75%;
+}
+.p2 {
+    display: inline-block;
+    position: absolute;
+    width: 6%;
+    height: 100px;
+    background:#2F7982; 
+    margin-left: 33%;
+    margin-top: 75%;
+}
+.p3 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 90%;
+    margin-left: 65%
+}
+.p4 {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    background:#2F7982; 
+    margin-top: 85%;
+    margin-left: 49%
+}
+/*
+  ========================================
+                ATTIC C
+  ========================================
+*/
+
+.q1 {
+    display: block;
+    position: relative;
+    width: 30%;
+    height: 300px;
+    background:#2F7982; 
+    margin-top: 5%;
+    margin-left: 35%;
+    float: left
+}
+.q2 {
+     display: block;
+    position: relative;
+    width: 30%;
+    height: 500px; 
+    margin-top: 2%;
+    margin-left: 35%;
+    float: left;
+    
+}
+.nav2 {
+   width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    float: left;
+    font: 20px "Helvetica";
+    margin-top: 80%
+} 
+
+/* END OF BOXES!!!!!!!!!! */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* unvisited link */
+a:link {
+    color: #333C52;
+}
+
+/* visited link */
+a:visited {
+    color: #333C52;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFC4A0;
+}
+
+/* selected link */
+a:active {
+    color: #2F7182;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+/* FONT STUFF */
+
+h1 {
+    font: 50px "Helvetica";
+    color: azure;
+    text-align: center;
+}
+
+p {
+    font: 11px "Helvetica";
+    color: black;
+    text-align: left;
+}
+
+/* Stuff Dealing with the Header Text */
+.container1,
+.container2,
+.bottomcontainer {
+    width: 100%;
+    display: block;
+}
+
+.nav1 {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    float: left;
+    font: 20px "Helvetica";
+    margin-top: 70%
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* unvisited link */
+a:link {
+    color: #333C52;
+}
+
+/* visited link */
+a:visited {
+    color: #333C52;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFC4A0;
+}
+
+/* selected link */
+a:active {
+    color: #2F7182;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
