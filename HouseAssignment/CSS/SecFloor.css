@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset*/
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+.container1,
+.container2,
+.bottomcontainer{
+    width: 100%;
+    display: block;
+}
+
+.boxone {
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    background: #2F7982;
+    height: 100px;
+    margin: 5px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    
+}
+
+.boxtwo {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    background: #2F7982;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+.boxthree {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    background: #2F7982;
+    height: 100px;
+    margin-left:70%;
+    margin-bottom: 80px;
+    margin-top: 5%;
+    
+}
+
+.boxone2 {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    background: #2F7982;
+    margin-bottom: 100px;
+    margin-top: 700px;
+    margin-left: 1%;
+    
+}
+
+.boxtwo2 {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    background: #2F7982;
+    margin-left: 40%;
+    margin-bottom: 300px;
+    margin-top: 600px;
+    
+    
+}
+
+.boxthree2 {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    background: #2F7982;
+    margin-bottom: 80px;
+    margin-left: 90%;
+    margin-top: 400px;
+}
+/*
+  ========================================
+  Second Floor A
+  ========================================
+*/
+
+.boxtwoa {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20%;
+
+}
+
+/*
+  ========================================
+  Second Floor B
+  ========================================
+*/
+.boxthreeb {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    margin-left:70%;
+    margin-bottom: 80px;
+    margin-top: 5%;
+    
+}
+
+/*
+  ========================================
+  Second Floor C
+  ========================================
+*/
+
+.boxthree2c {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    margin-bottom: 80px;
+    margin-left: 90%;
+    margin-top: 400px;
+}
+
+
+/**** I dont understand anything anymore*****/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* unvisited link */
+a:link {
+    color: #333C52;
+}
+
+/* visited link */
+a:visited {
+    color: #333C52;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFC4A0;
+}
+
+/* selected link */
+a:active {
+    color: #2F7182;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+/* FONT STUFF */
+
+h1 {
+    font: 50px "Helvetica";
+    color: azure;
+    text-align: center;
+}
+
+p {
+    font: 11px "Helvetica";
+    color: black;
+    text-align: left;
+}
+
+/* Stuff Dealing with the Header Text */
+.container1,
+.container2,
+.bottomcontainer {
+    width: 100%;
+    display: block;
+}
+
+.nav1 {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    float: left;
+    font: 20px "Helvetica";
+    
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* unvisited link */
+a:link {
+    color: #333C52;
+}
+
+/* visited link */
+a:visited {
+    color: #333C52;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFC4A0;
+}
+
+/* selected link */
+a:active {
+    color: #2F7182;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
