@@ -67,7 +67,7 @@ table {
     margin-left: 5%;
     height: 180px;
     margin-top: 10%;
-    background: #2F7982;
+    background: #CF7A74;
 }
 .topright {
     position: relative;
@@ -145,3 +145,14 @@ a {
     text-decoration: none;
     margin: 10px;
 }
+
+/* Media Queries */
+@media all and (max-width: 400px) {
+      .top {
+        height: 100px;
+}
+    
+    .topright {
+        width: 70%;
+        height: 2200px
+    }

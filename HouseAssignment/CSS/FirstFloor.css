@@ -77,7 +77,7 @@ table {
     margin-left: 5%;
     height: 180px;
     margin-top: 10%;
-    background: #2F7982;
+    background: #CF7A74;
     display: inline-block;
      
 }
@@ -98,7 +98,7 @@ table {
     margin-top: 5px;
     margin-bottom: 5%;
     height: 400px;
-    background: #2F7982;
+    background: #2E5E82;
     display:inline-block;
     
 }
@@ -111,7 +111,7 @@ table {
     margin-top:5px;
     margin-left: 5%;
     height: 400px;
-    background: #2F7982;
+    background: #2F8276;
     
     
 }
@@ -182,3 +182,17 @@ h1 {
     text-align: center;
 }
 
+/* Media Queries */
+@media all and (max-width: 400px) {
+      .top {
+        height: 100px;
+}
+    
+    .middleright {
+        width: 12%;
+        height: 300px;
+        
+    }
+    .middleleft {
+       height: 300px
+    }
